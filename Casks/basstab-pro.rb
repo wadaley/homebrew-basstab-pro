@@ -1,14 +1,14 @@
 cask "basstab-pro" do
-  version "PLACEHOLDER_VERSION"
+  version "0.1.0"
 
   on_arm do
     url "https://basstab.pro/desktop/dev/mac-arm/latest/Basstab-Pro-mac-arm.dmg"
-    sha256 "PLACEHOLDER_ARM_SHA256"
+    sha256 "db36db14b1de5591d37fd92a405499fb5d8fcb8cfb93c70a18aefb9659777bed"
   end
 
   on_intel do
     url "https://basstab.pro/desktop/dev/mac-intel/latest/Basstab-Pro-mac-intel.dmg"
-    sha256 "PLACEHOLDER_INTEL_SHA256"
+    sha256 "63fa21e073e93bdfef26af2f67af84130874428736a0bf10e50e288f6fc2c340"
   end
 
   name "Basstab Pro"
